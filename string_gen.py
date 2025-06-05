@@ -16,8 +16,8 @@ All rights reserved.
 
 print(moon_)
 
-api_id = input("Enter Your API ID: \n")
-api_hash = input("Enter Your API HASH : \n")
+api_id = input("24977909: \n")
+api_hash = input("d57025db2264810ba974736a82bf7812 : \n")
 
 with Client("my_account", api_id=api_id, api_hash=api_hash, hide_password=True) as bot_:
     first_name = (bot_.get_me()).first_name
